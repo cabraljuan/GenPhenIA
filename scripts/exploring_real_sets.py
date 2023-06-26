@@ -11,7 +11,7 @@ está del fenotipo específico que causa el gen.
 import numpy as np
 import random
 import sys
-sys.path.insert(0,'/home/brainy/Desktop/1ercuatri2023/Tesis/GenPhenIA/src')
+sys.path.insert(0,'E:/articulos/GenPhenIA/src')
 import linear_model_lab as lml
 import phen_gen_weight_functions as pgw
 PATH = "/home/brainy/Desktop/1ercuatri2023/Tesis/GenPhenIA/"
