@@ -48,5 +48,4 @@ one_hot = pd.get_dummies(genes.apply(pd.Series).stack()).sum(level=0)
 gene_phenotype = gene_phenotype[['key_hp']].join(one_hot)
 
 
-# To do: check the problem to solve
-# Try to reduce dimension problem for one-hot
+# Objetive: assign genes from a patient with certain phenotypes
