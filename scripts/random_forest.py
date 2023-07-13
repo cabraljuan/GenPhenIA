@@ -1,6 +1,3 @@
-
-
-
 # Libraries
 import json
 import pandas as pd
@@ -49,3 +46,18 @@ gene_phenotype = gene_phenotype[['key_hp']].join(one_hot)
 
 
 # Objetive: assign genes from a patient with certain phenotypes
+
+
+
+# 1) Hacer un arbol por cada gen, el resultado debería 
+# ser tiene tal gen con tanta probabilidad porque la mayoría de genes
+# no son condicion ni necesaria ni suficente para cada fenotipo
+
+# 2) predecir bolsa de genes: Por cada enfermedad tenemos una bolsa de 
+# genes. Por cada enfermedad tambien hay probabilidades asignadas a los
+# fenotipos
+# a) Armar bolsas con orpha.net página 
+
+
+# Con casos reales fenotipo-gen pasar a fenotipo-bolsa
+
